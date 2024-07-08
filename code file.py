@@ -1,6 +1,4 @@
-import csv
-import time
-import psutil
+
 def load_dictionary(dictionarydoc):
     dictionary = {}
     with open(dictionarydoc, 'r') as file:
