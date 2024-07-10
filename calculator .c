@@ -3,8 +3,7 @@
 #include <stdlib.h>
 int main()
 {
-	char ch;
-	double a,b;
+	
 	while (1) {
 		printf("Enter an operator (+, -, *, /), "
 			"exit  x: ");
