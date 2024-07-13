@@ -1,6 +1,5 @@
 
 def load_dictionary(dictionarydoc):
-    dictionary = {}
     with open(dictionarydoc, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
